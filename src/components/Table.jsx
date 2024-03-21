@@ -1,4 +1,5 @@
 const Table = ({ sat }) => {
+  
   return (
     <table>
     <thead>
