@@ -81,4 +81,4 @@ const satData = [
    }
  ];
  
- export default satData;
+ export default satData; 

@@ -15,4 +15,4 @@ const Table = ({ sat }) => {
   );
 };
 
-export default Table;
+export default Table; 
