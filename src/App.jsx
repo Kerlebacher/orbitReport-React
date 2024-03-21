@@ -14,12 +14,16 @@ function App() {
     });
     setSat(displaySats);
   };
-  
+
   return (
     <div>
-      <Banner />
-      <Buttons />
-      <Table />
+    <Banner />
+      <Buttons
+        filterByType={filterByType}
+        setSat={setSat}
+        displaySats={displaySats}
+      />
+      <Table sat={sat} />
     </div>
   );
 }
